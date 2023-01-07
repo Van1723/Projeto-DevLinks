@@ -29,6 +29,7 @@ body {
 body* {
   font-family: "Inter", sans-serif;
   color: var(--text-color);
+  height: 100vh;
 }
 body {
   background-image: var(--bg-url);
@@ -141,4 +142,14 @@ footer {
 footer a {
   text-decoration: none;
   color: var(--text-color);
+}
+
+/* media queries */
+@media (min-widht: 700px) {
+  :root {
+    --bg-url: url(./assets/img/backgroud-desktop-dark.jpg);
+  }
+  .Light {
+    --bg-url: url(./assets/img/Backgroud.jpg);
+  }
 }
