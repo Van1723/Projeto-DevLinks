@@ -37,9 +37,10 @@ body {
   background-size: cover;
 }
 #Container {
-  width: 360px;
+  width: 100%;
   margin: 56px auto 0px;
   padding: 0 24px;
+  max-width: 580px;
 }
 /*switch*/
 #Switch button {
